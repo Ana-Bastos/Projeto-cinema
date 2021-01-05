@@ -1,0 +1,296 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+.header{
+	height:300px;
+}
+.container-logo{
+	height:200px;
+	background-color:#425861;
+	padding:24px 0 0 0;
+}
+.logo{
+	margin: 0 auto;
+	width:150px;
+	height:150px;
+}
+.logo img{
+	width:100%;
+	height:100%;
+}
+.container-menu{
+	height:100px;
+	background-color:#AD343E;
+}
+.container-menu ul {
+	padding: 35px 0 0 0;
+	text-align:center;
+}
+.container-menu ul li{
+	display: inline-block;
+}
+.container-menu ul li a{
+	color: #FFA300;
+	text-decoration:none;
+	font-size:25px;
+	font-weight:600;
+	padding:35px;
+}
+.container-menu ul li a:hover{
+	background-color:#FFA300;
+	color:#AD343E;
+	
+}
+body { 
+	background-image: url("imagens/background.jpg");
+}
+.main {
+	width:960px;
+	margin: 0 auto;
+	background-color:white;
+}
+.esquerda{
+	width:640px;
+	height:90%;
+}
+.direita{
+	width:320px;
+	height:90%;
+}
+#sessao-ultimas-noticias h2{
+	padding:20px 20px;
+}
+.noticia-grande{
+	text-decoration:none;
+	margin:0px 20px;
+	display:block;
+}
+.main .esquerda .noticia-toystory{
+	
+	background-image:url("imagens/noticia_1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-radius:10px 10px;
+	height:350px;
+	width:100%;
+	
+}
+.texto-noticia1{
+	padding:240px 0 20px 0;
+
+}
+.texto-noticia1 p, .texto-noticia1 h3{
+	color:white;
+	width:100%;
+	padding: 5px 40px 0;
+}
+.noticia-pequena {
+	width:100%;
+	height:160px;
+}
+.noticia-pequena img {
+	width:45%;
+	border-radius:10px 10px;
+	margin:15px 0 15px 20px;
+}
+.texto-noticia-pequena{
+	margin: 15px 0;
+	width: 50%;
+}
+.texto-noticia-pequena h3, .texto-noticia-pequena .texto{
+	color: black;
+	padding:0 0 0 20px;
+	width:100%;
+}
+.data{
+	color:gray;
+	padding: 0 0 0 20px;
+}
+.mais-noticias{
+	margin:40px 0;
+	text-align: center;
+}
+.mais-noticias a{
+	background-color:#AD343E;
+	border-radius:10px 10px;
+	text-decoration:none;
+	color:#FFA300;
+	font-size:20px;
+	font-weight:600;
+	padding:20px 70px;
+}
+#em-cartaz h2{
+	padding:20px 20px;
+}
+.emcartaz{
+	width:100%;
+}
+.imagens-emcartaz {
+	width:30%;
+	padding-left:30px;
+}
+.texto-emcartaz {
+	width:70%;
+	padding-left: 30px;
+}
+.texto-emcartaz p{
+	margin:10px 0 0 0;
+}
+
+.emcartaz-subtitulos span{
+	color:blue;	
+}
+.Ver-Trailer-margin{
+	margin:30px 5px 40px 5px;
+}
+.Ver-Trailer{
+	padding:10px 10px;
+	background-color:black;
+	text-decoration:none;
+	color:white;
+}
+.mais-filmeemcartaz{
+	margin:40px 0;
+	text-align: center;
+} 
+.mais-filmeemcartaz a{
+	background-color:#AD343E;
+	border-radius:10px 10px;
+	text-decoration:none;
+	color:#FFA300;
+	font-size:20px;
+	font-weight:600;
+	padding:20px 70px;
+}
+#estreias h2{
+	padding:20px 20px;
+}
+.estreias{
+	width:100%;
+}
+.estreias img{
+	height:250px;
+	width:190px;
+	padding:5px 0 5px 30px;
+}
+.titulo{
+	padding:5px 0 0 30px;
+	font-weight:600;
+}
+.diretor {
+	color:grey;
+	padding:5px 0 0 30px;
+}
+.mais-estreias{
+	margin:40px 0;
+	text-align: center;
+}
+.mais-estreias a{
+	background-color:#AD343E;
+	border-radius:10px 10px;
+	text-decoration:none;
+	color:#FFA300;
+	font-size:20px;
+	font-weight:600;
+	padding:20px 70px;
+}
+#trailer-destaque h2{
+	padding:20px 10px;
+}
+#trailer-destaque p{
+	padding:20px 0 5px 30px ;
+	font-size:20px;
+	font-weight:600;
+}
+#trailer-destaque iframe{
+	margin: 0 0 30px 30px;
+}
+.filmes-aguardados h2{
+	color:black;
+	font-size:20px;
+	padding:20px 0;
+}
+.filmes-aguardados ol, .filmes-aguardados li{
+	color:black;
+	padding: 5px 0 0 30px;
+	font-weight: 600;
+}
+.parceiros h2{
+	color:black;
+	font-size:20px;
+	padding:20px 0 ;
+}
+.parceiros ul {
+	margin-left: 30px;
+}
+.parceiros li{
+	display:inline-block;
+	
+}
+.nossas-redes h2{
+	color:black;
+	font-size:20px;
+	padding:20px 0;
+}
+.nossas-redes ul {
+	margin-left: 30px;
+}
+.nossas-redes li{
+	display:inline-block;
+	
+}
+.nossas-redes img{
+	width:85px;
+}
+.footer{
+	height:300px;
+	background-color:#474747;
+}
+.container-footer{
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+}
+#copyright {
+	color: white;
+	text-align:center;
+}
+.footer .esquerda p{
+	color: white;
+	font-weight:600;
+	font-size:15px;
+	padding: 20px 30px;
+}
+.imagens-footer{
+	margin: 0 0 0 30px;
+}
+.imagens-footer img{
+	height:50px;
+	width:50px;	
+	padding-right:5px;
+}
+.footer a{
+	color:white;
+	display:block;
+	padding: 0 0 0 30px;
+	text-decoration:none;
+	display:block;
+}
+.contato {
+	padding:20px 30px;
+	font-weight:600;
+}
+.footer .direita p{
+	color:white;
+	padding-left:30px;
+}
+.flutuante{
+	float:left;
+}
+.clear{
+	clear:both;
+}
